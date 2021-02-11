@@ -32,7 +32,7 @@ Simple app to get user newest status (single data) from specific user account an
 
 Using:
 - OAuth 1.0 Conventional auth using key and secret key
-- OAuth 2.0 usering Bearer Token Auth
+- OAuth 2.0 Using Bearer Token
 
 ### requirements
 - Windows 10, Ubuntu 18.04 x64
@@ -42,7 +42,7 @@ Using:
 - Twitter API
 - Telegram API
 
-### install
+### Install
 ```telegram API
 npm i slimbot
 ```
