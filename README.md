@@ -49,6 +49,11 @@ npm i slimbot
 ```Twitter API
 npm install twitter
 ```
+```dotnev
+get configuration from .env file
+npm install dotenv
+```
+
 
 ### release
 
