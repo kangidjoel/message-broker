@@ -28,12 +28,12 @@
 
 
 CPSSSIMBOT
-Monitoring user newest status (single data) from specific user account and send it to telegram
+### Monitoring user newest status (single data) from specific user account and send it to telegram
 
 - OAuth 1.0 Conventional auth using key and secret key
 - OAuth 2.0 Using Bearer Token
 
-### requirements
+### Requirements
 - Windows 10, Ubuntu 18.04 x64
 - PostgreSQL v12
 - Nodejs v14
@@ -56,7 +56,7 @@ npm install dotenv
 ```
 
 
-### release
+### Release
 
 rel.by | ver | date | note
 --- | --- | --- | ---
