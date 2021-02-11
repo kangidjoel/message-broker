@@ -43,15 +43,15 @@ Using:
 - Telegram API
 
 ### Install
-```telegram API
+```javascript
 // install slimbot by telegram
 npm i slimbot 
 ```
-```Twitter API
-// install twitter lib
+```javascript
+// install twitter libr
 npm install twitter 
 ```
-```dotnev
+```javascript
 // get configuration from .env file
 npm install dotenv 
 ```
