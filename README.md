@@ -47,7 +47,7 @@ Monitoring user newest status (single data) from specific user account and send 
 npm i slimbot 
 ```
 ```javascript
-// install twitter libr
+// install twitter lib
 npm install twitter 
 ```
 ```javascript
