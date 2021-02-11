@@ -43,6 +43,10 @@ CPSSSIMBOT
 
 ### Install
 ```javascript
+// install axios
+npm install axios
+```
+```javascript
 // install slimbot by telegram
 npm i slimbot 
 ```
