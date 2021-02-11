@@ -28,7 +28,7 @@
 
 
 CPSSSIMBOT
-Simple app to get user newest status (single data) from specific user account and send it to telegram
+Monitoring user newest status (single data) from specific user account and send it to telegram
 
 Using:
 - OAuth 1.0 Conventional auth using key and secret key
