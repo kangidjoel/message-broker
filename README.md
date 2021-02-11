@@ -44,13 +44,16 @@ Using:
 
 ### Install
 ```telegram API
-npm i slimbot // install slimbot by telegram
+// install slimbot by telegram
+npm i slimbot 
 ```
 ```Twitter API
-npm install twitter // install twitter lib
+// install twitter lib
+npm install twitter 
 ```
 ```dotnev
-npm install dotenv // get configuration from .env file
+// get configuration from .env file
+npm install dotenv 
 ```
 
 
