@@ -1,7 +1,3 @@
-# cpsssimbot
-
-
-
 <div align="center">
 <h1><b>CPSSSIMBOT</h1>
   <i>Backend Nodejs Edition</i>
@@ -30,13 +26,13 @@
 <br/>
 </div>
 
-Program sederhana untuk melakukan pengambilan data dari social media (twitter) menggunakan API dan dikirimkan ke telegram (telegram API)
-CPSSSIMBOT
 
-- OAuth 1.0 & OAuth 2.0
-- 
-- 
-- 
+CPSSSIMBOT
+Simple app to get user newest status (single data) from specific user account and send it to telegram
+
+Using:
+- OAuth 1.0 Conventional auth using key and secret key
+- OAuth 2.0 usering Bearer Token Auth
 
 ### requirements
 - Windows 10, Ubuntu 18.04 x64
