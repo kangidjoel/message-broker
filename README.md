@@ -1,6 +1,6 @@
 <div align="center">
 <h1><b>CPSSSIMBOT</h1>
-  <i>Backend Nodejs Edition</i>
+  <i>Monitoring user newest status (single data) from specific user account and send it to telegram</i>
 <br/><br/>
 
 <a href="blank" title="CPSSSIMBOT">
@@ -28,9 +28,7 @@
 
 
 CPSSSIMBOT
-Monitoring user newest status (single data) from specific user account and send it to telegram
 
-Using:
 - OAuth 1.0 Conventional auth using key and secret key
 - OAuth 2.0 Using Bearer Token
 
