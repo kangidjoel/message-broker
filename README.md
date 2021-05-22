@@ -1,6 +1,6 @@
 <div align="center">
-<h1><b>CPSSSIMBOT</h1>
-  <i>Read, Send status twitter & Send msg to telegram</i>
+<h1><b>Bot Message Broker</h1>
+  <i>Read/Send status twitter & Send msg to telegram</i>
 <br/><br/>
 
 <a href="blank" title="BotMessageBroker">
