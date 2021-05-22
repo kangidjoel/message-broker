@@ -3,8 +3,8 @@
   <i>Read, Send status twitter & Send msg to telegram</i>
 <br/><br/>
 
-<a href="blank" title="CPSSSIMBOT">
-   <img src="https://img.shields.io/badge/cpsssimbot-2021-blue" alt="cpsssimbot">
+<a href="blank" title="BotMessageBroker">
+   <img src="https://img.shields.io/badge/cpsssimbot-2021-blue" alt="BotMessageBroker">
 </a>
 <a href="blank" title="Node Version">
    <img src="https://img.shields.io/badge/node-v14.15.4-green" alt="node version">
@@ -15,10 +15,10 @@
 <!-- <a href="blank" title="PostgreSQL Version">
    <img src="https://img.shields.io/badge/postgreSQL-v12.5-green" alt="postgresql version">
 </a> -->
-<a href="blank" title="CPSSSIMBOT">
-   <img src="https://img.shields.io/badge/version-1.0 build.210211-orange" alt="CPSSSIMBOt v1.0 build.210211">
+<a href="blank" title="BotMessageBroker">
+   <img src="https://img.shields.io/badge/version-1.0 build.210211-orange" alt="BotMessageBroker v1.0 build.220521">
 </a>
-<a href="blank" title="CPSSSIMBOT Tests">
+<a href="blank" title="BotMessageBroker Tests">
   <img src="https://img.shields.io/badge/build-passing-green" alt="Build Status"/>
 </a>
 <br/>
@@ -64,7 +64,7 @@ npm install dotenv
 
 rel.by | ver | date | note
 --- | --- | --- | ---
-kangidjoel | 1.0 | 2021-02-11 09.41 | initial release 
+kangidjoel | 1.0 | 2021-05-22 11.43 | initial release 
 
 
 Copyright © 2021 Kangidjoel. Open source.
