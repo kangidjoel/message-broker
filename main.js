@@ -18,7 +18,7 @@ global.tweet_id = global.readFile(process.env.LOCAL_FILENAME);
 
 console.log( new Date() + ' tweet id ' + global.tweet_id);
 
-let resp = main(twitterSource,telegram,twitterDest);
+main(twitterSource,telegram,twitterDest);
 
 /*============================================
 var runner = require("child_process");
