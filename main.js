@@ -1,14 +1,14 @@
 /**/
 var app             = require("./run.js")
 var twitterSource   = require("./lib/get_user_tweet_checker");
-var twitterDest     = require("./lib/post_tweet_update");
+// var twitterDest     = require("./lib/post_tweet_update");
 var telegram        = require("./lib/push_telegram_msg");
 var global          = require("./lib/global_functions");
 
-const main = async (twitterSource,telegram,twitterDest) => {
+const main = async (twitterSource,telegram) => {
     while(true) {
         await global.delay(3000);
-        await app.run(twitterSource,telegram,twitterDest);
+        await app.run(twitterSource,telegram);
     }
 }
 
@@ -18,7 +18,7 @@ global.tweet_id = global.readFile(process.env.LOCAL_FILENAME);
 
 console.log( new Date() + ' tweet id ' + global.tweet_id);
 
-main(twitterSource,telegram,twitterDest);
+main(twitterSource,telegram);
 
 /*============================================
 var runner = require("child_process");
