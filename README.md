@@ -33,8 +33,7 @@ CPSSSIMBOT
 - OAuth 1.0 Conventional auth using key and secret key
 - OAuth 2.0 Using Bearer Token
 
-  Note:
-  Rename file last_tweet_id.example to last_tweet_id before run this project
+  
 
 ### Requirements
 - Windows 10, Ubuntu 18.04 x64
@@ -61,7 +60,8 @@ npm install twitter
 // get configuration from .env file
 npm install dotenv 
 ```
-
+### Important note(s):
+- Rename file last_tweet_id.example to last_tweet_id before run this project
 
 ### Release
 
