@@ -33,6 +33,9 @@ CPSSSIMBOT
 - OAuth 1.0 Conventional auth using key and secret key
 - OAuth 2.0 Using Bearer Token
 
+  Note:
+  Rename file last_tweet_id.example to last_tweet_id before run this project
+
 ### Requirements
 - Windows 10, Ubuntu 18.04 x64
 - PostgreSQL v12
@@ -64,7 +67,8 @@ npm install dotenv
 
 rel.by | ver | date | note
 --- | --- | --- | ---
-kangidjoel | 1.0 | 2021-05-22 11.43 | initial release 
+kangidjoel | 1.0.00 | 2021-05-22 11.43 | initial release 
+kangidjoel | 1.0.01 | 2021-06-10 09.40 | ignore change last_tweet_id
 
 
 Copyright © 2021 Kangidjoel. Open source.
