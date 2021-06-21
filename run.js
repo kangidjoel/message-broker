@@ -9,22 +9,32 @@ function run(twitterSource, telegram){
     axios(twitterSource.config)
     .then(function (response) {
         var newest_id = response.data.meta.newest_id;
-        var ret = twitterSource.tweetChecker(newest_id);
-        if (response.data.data) { 
-            var msg = response.data.data[0].text
-                        + "\n\nLihat lebih detil:\n"
-                        +'https://twitter.com/'+ process.env.TWITTER_USER_ID
-                        +'/status/'
-                        +newest_id;
-            if (ret){
-                console.log(new Date() + ' Mengirim pesan ke telegram...');
-                telegram.sendMessage(msg);
+        var msg = response.data.data[0].text;
+        /* pengecekan tweet_id menggunakan file
+        var res = twitterSource.tweetChecker(newest_id);*/
+        // pengecekan tweet_id menggunakan database
+        var res = twitterSource.tweetCheckerDB([newest_id,msg]);
+        
+        if (response.data.data) {
+            if(res){
+                msg = response.data.data[0].text
+                    + "\n\nLihat lebih detil:\n"
+                    + 'https://twitter.com/'+ process.env.TWITTER_USER_ID
+                    + '/status/'
+                    + newest_id;
+                sendMsg(telegram, msg);
             }
         }
     })
     .catch(function (error) {
-    console.log(error);
+        console.log(error);
     });
 }
+
+function sendMsg(telegram, msg){
+    console.log(new Date() + ' Mengirim pesan ke telegram...');
+    telegram.sendMessage(msg);    
+}
+
 
 module.exports = { run };
