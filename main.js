@@ -12,11 +12,11 @@ const main = async (twitterSource,telegram) => {
     }
 }
 
-console.log(new Date() + ' Inisialisasi tweet_id ');
+// console.log(new Date() + ' Inisialisasi tweet_id ');
 
-global.tweet_id = global.readFile(process.env.LOCAL_FILENAME);
+// global.tweet_id = global.readFile(process.env.LOCAL_FILENAME);
 
-console.log( new Date() + ' tweet id ' + global.tweet_id);
+// console.log( new Date() + ' tweet id ' + global.tweet_id);
 
 main(twitterSource,telegram);
 
